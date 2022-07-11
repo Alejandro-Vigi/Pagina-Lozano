@@ -28,9 +28,6 @@ body{
     min-height: 100vh;
 }
 
-textarea {
-    resize: none;
-}
 
 /*---------------LOGO---------------*/
 
@@ -86,11 +83,11 @@ textarea {
     background-color: white;
     display: grid;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .bloque3 a{
-    width: 190px;
+    width: 210px;
     border-radius: 25px;
     border-width: 0.15rem;
     border-style: solid;
@@ -108,14 +105,18 @@ textarea {
     margin-right: 10px;
 }
 
-.sub1:hover{
+.bloque3 a:hover{
     color: white;
     background-color: #25272d;
+    border-color: #25272d;
 }
 
-.sub2:hover img{
-    filter: hue-rotate(20deg) brightness(500%);
+
+.bloque4{
+    margin-top: 40px;
+    font-size: 1.4rem;
 }
+
 
 /*-----media's-----*/
 
@@ -143,5 +144,19 @@ textarea {
 
     .texto2{
         font-size: 14px;
+    }
+}
+
+@media(max-width:768px){
+    .bloque4{
+        text-align: center;
+    }
+}
+
+
+@media(min-width:922px){
+    .bloque4{
+        font-size: 2.2rem;
+        margin-left: 50px;
     }
 }
